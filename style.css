@@ -1,6 +1,5 @@
 body {
     overflow: hidden;  
-    font-family: Raleway;
     background-image: url("glasbenaradecebg.png");
     background-size: 85%;
 }
@@ -41,11 +40,23 @@ body {
 @media (min-width: 200px) and (orientation:landscape) {
     h1 {
         font-size:3vw;
+        font-family: Raleway;
+    }
+    h2 {
+        font-size:1.5vw;
+        font-family: Raleway;
+        font-weight: 100;
     }
 }
 
 @media (min-height: 200px) and (orientation:portrait) {
     h1 {
         font-size:3vh;
+        font-family: Raleway;
+    }
+    h2 {
+        font-size:1.5vh;
+        font-family: Raleway;
+        font-weight: 100;
     }
 }
